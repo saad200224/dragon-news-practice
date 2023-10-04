@@ -1,7 +1,9 @@
+import Header from "../Shared/Header/Header";
+
 const Home = () => {
     return (
         <div>
-            <h2 className="text-3xl">This is home.</h2>
+            <Header></Header>
         </div>
     );
 };
